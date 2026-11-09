@@ -1,0 +1,10 @@
+# local tooling
+.claude/
+
+# source copies of the résumé (the site uses assets/Tanya_Nagarajan_Resume.pdf)
+/Tanya_Nagarajan_Resume.pdf
+/Tanya_Nagarajan_Resume (2).pdf
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tanya Nagarajan — Aspiring Data Analyst</title>
+  <meta name="description" content="Tanya Nagarajan — mathematics graduate and IIT Madras Data Science student from Chennai. Python, SQL, data cleaning, analysis and reporting." />
+  <meta property="og:title" content="Tanya Nagarajan — Aspiring Data Analyst" />
+  <meta property="og:description" content="Mathematics graduate, IIT Madras BS Data Science. Finding the pattern in every dataset." />
+  <meta property="og:image" content="assets/tanya-portrait.webp" />
+  <meta name="theme-color" content="#FBF7F2" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236E1F2F'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='40' fill='%23FBF7F2'%3ET%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..800,0..100,0..1;1,9..144,300..800,0..100,0..1&family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    document.documentElement.classList.add('js');
+    // Always open on the cover, even after a refresh mid-page
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+    window.scrollTo(0, 0);
+  </script>
+</head>
+<body class="is-loading">
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <p class="loader__query mono"><span class="c-plum">SELECT</span> * <span class="c-plum">FROM</span> tanya<span class="caret">_</span></p>
+      <div class="loader__count"><span class="loader__num">0</span><span class="loader__pct">%</span></div>
+      <div class="loader__bar"><span></span></div>
+      <p class="loader__meta mono">loading rows · 1 person · ∞ potential</p>
+    </div>
+  </div>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__h"></span><span class="cursor__v"></span>
+    <svg class="cursor__star" viewBox="0 0 24 24"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0 Z" /></svg>
+    <span class="cursor__tag mono">x 0.00 · y 0.00</span>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="masthead">
+    <a href="#top" class="masthead__logo" aria-label="Back to top"><em>Tanya</em><span class="mono">.csv</span></a>
+    <nav class="masthead__nav" aria-label="Main">
+      <a href="#profile">Profile</a>
+      <a href="#mind">Mind</a>
+      <a href="#toolkit">Toolkit</a>
+      <a href="#work">Work</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" class="masthead__cta">Say hello</a>
+    </nav>
+    <button class="menu-btn" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span class="sr-only">Menu</span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#profile"><span class="mono">01</span> Profile</a>
+      <a href="#mind"><span class="mono">02</span> Mind</a>
+      <a href="#toolkit"><span class="mono">03</span> Toolkit</a>
+      <a href="#work"><span class="mono">04</span> Work</a>
+      <a href="#journey"><span class="mono">05</span> Journey</a>
+      <a href="#contact"><span class="mono">06</span> Contact</a>
+    </nav>
+    <p class="mono mobile-menu__foot">Chennai · Tamil Nadu · Open to work</p>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO / COVER ============ -->
+    <section class="cover">
+      <div class="cover__bar mono">
+        <span>The Data Issue · N°01</span>
+        <span class="hide-sm">Chennai, Tamil Nadu</span>
+        <span>Vol. 2026</span>
+      </div>
+
+      <h1 class="cover__name">
+        <span class="cover__first"><span class="cover__word">Tanya</span></span>
+        <span class="cover__last"><span class="cover__word">Nagarajan</span></span>
+      </h1>
+
+      <div class="cover__grid">
+        <aside class="cover__lines">
+          <p class="cover__kicker mono">Cover story</p>
+          <p class="cover__headline">The mathematician who reads <em>stories</em> in spreadsheets.</p>
+          <ul class="cover__teasers">
+            <li><span class="mono">p.02</span> Why an ENTJ makes a fearless analyst</li>
+            <li><span class="mono">p.04</span> Inside a startup's sales data</li>
+            <li><span class="mono">p.06</span> Table tennis, team spirit &amp; tenacity</li>
+          </ul>
+        </aside>
+
+        <figure class="cover__photo">
+          <div class="cover__photo-mask">
+            <img src="assets/tanya-portrait.webp" alt="Portrait of Tanya Nagarajan smiling, wearing a burgundy embroidered outfit" width="1086" height="1448" fetchpriority="high" />
+          </div>
+          <figcaption class="mono">fig. 1 — Tanya, smiling at the data</figcaption>
+        </figure>
+
+        <aside class="cover__data">
+          <div class="datacard">
+            <p class="datacard__title mono">tanya.describe()</p>
+            <dl>
+              <div><dt>role</dt><dd>Aspiring Data Analyst</dd></div>
+              <div><dt>degree</dt><dd>B.Sc. Mathematics</dd></div>
+              <div><dt>studying</dt><dd>BS Data Science, IIT Madras</dd></div>
+              <div><dt>type</dt><dd>ENTJ · the Commander</dd></div>
+              <div><dt>mood</dt><dd>always positive <span class="spark">✦</span></dd></div>
+            </dl>
+          </div>
+          <a href="#contact" class="pill pill--solid magnetic">Hire Tanya <span aria-hidden="true">↘</span></a>
+        </aside>
+      </div>
+
+      <div class="cover__scroll mono" aria-hidden="true"><span class="cover__scroll-line"></span> scroll to read the issue</div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Python</span><i>✦</i><span>SQL</span><i>✦</i><span><em>Statistics</em></span><i>✦</i><span>Data Cleaning</span><i>✦</i><span>Excel</span><i>✦</i><span><em>Reporting</em></span><i>✦</i><span>Problem Solving</span><i>✦</i><span>Java</span><i>✦</i><span><em>Leadership</em></span><i>✦</i>
+        <span>Python</span><i>✦</i><span>SQL</span><i>✦</i><span><em>Statistics</em></span><i>✦</i><span>Data Cleaning</span><i>✦</i><span>Excel</span><i>✦</i><span><em>Reporting</em></span><i>✦</i><span>Problem Solving</span><i>✦</i><span>Java</span><i>✦</i><span><em>Leadership</em></span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ CHAPTER I — PROFILE ============ -->
+    <section class="chapter profile" id="profile">
+      <header class="chapter__head">
+        <span class="chapter__num mono">Chapter I</span>
+        <h2 class="chapter__title split">The <em>Profile</em></h2>
+      </header>
+
+      <div class="profile__grid">
+        <figure class="profile__photo">
+          <div class="profile__photo-mask parallax-wrap">
+            <img src="assets/tanya-garden.webp" alt="Tanya standing in a garden under pink bougainvillea, wearing a white floral dress" loading="lazy" width="1122" height="1402" class="parallax-img" />
+          </div>
+          <figcaption class="mono">fig. 2 — Chennai, in full bloom</figcaption>
+        </figure>
+
+        <div class="profile__text">
+          <p class="profile__lead reveal">Tanya fell for <em>mathematics</em> long before she knew it had a career attached.</p>
+          <div class="profile__cols">
+            <p class="reveal"><span class="profile__label mono">The foundation</span>A B.Sc. in Mathematics from Ethiraj College for Women gave her algebra, analysis, statistics, and the patience to sit with a hard problem until it gives way.</p>
+            <p class="reveal"><span class="profile__label mono">The now</span>She's pursuing a <strong>BS in Data Science at IIT Madras</strong> and cleaning real sales data for a startup. Next: an entry-level role in <strong>Data Analysis, MIS Reporting or Data Operations</strong>.</p>
+          </div>
+
+          <blockquote class="pullquote reveal">
+            <span class="pullquote__mark" aria-hidden="true">“</span>
+            Give me a messy dataset and a cup of filter coffee. I'll give you the pattern.
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- stat strip -->
+      <div class="stats" role="list">
+        <div class="stat" role="listitem"><span class="stat__num" data-count="2">0</span><span class="stat__label">degrees, maths &amp; data science</span></div>
+        <div class="stat" role="listitem"><span class="stat__num" data-count="4">0</span><span class="stat__label">languages: English, Tamil, Hindi, Kannada</span></div>
+        <div class="stat" role="listitem"><span class="stat__num" data-count="3">0</span><span class="stat__label">sports podiums in a single season</span></div>
+        <div class="stat" role="listitem"><span class="stat__num" data-count="3">0</span><span class="stat__label">clubs: Rotaract, Red Cross, E-Cell</span></div>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER II — THE MIND (ENTJ) ============ -->
+    <section class="chapter mind" id="mind">
+      <header class="chapter__head chapter__head--light">
+        <span class="chapter__num mono">Chapter II</span>
+        <h2 class="chapter__title split">Inside the <em>mind</em> of a Commander</h2>
+        <p class="chapter__dek reveal">ENTJ: four letters that explain why Tanya walks into a room and starts organising it, and why problems tend to get solved around her.</p>
+      </header>
+
+      <div class="entj">
+        <article class="entj__card">
+          <span class="entj__letter">E</span>
+          <h3>Extroverted</h3>
+          <p>Energised by people. Rotaract, Youth Red Cross, E-Cell: she's the one who turns up and brings friends.</p>
+        </article>
+        <article class="entj__card">
+          <span class="entj__letter">N</span>
+          <h3>Intuitive</h3>
+          <p>Sees the shape of the data before the chart is drawn. Pattern first, details next.</p>
+        </article>
+        <article class="entj__card">
+          <span class="entj__letter">T</span>
+          <h3>Thinking</h3>
+          <p>Logic over guesswork. A maths mind that wants proof, not just a pretty dashboard.</p>
+        </article>
+        <article class="entj__card">
+          <span class="entj__letter">J</span>
+          <h3>Judging</h3>
+          <p>Structured, decisive, on time. Clean data, clean reports, clear next steps.</p>
+        </article>
+      </div>
+
+      <!-- trait "query result" -->
+      <div class="query reveal">
+        <div class="query__head mono">
+          <span><span class="c-gold">SELECT</span> trait, strength <span class="c-gold">FROM</span> tanya <span class="c-gold">ORDER BY</span> strength <span class="c-gold">DESC</span>;</span>
+          <span class="query__rows">5 rows</span>
+        </div>
+        <table class="query__table">
+          <thead><tr><th>trait</th><th>strength</th><th class="hide-sm">notes</th></tr></thead>
+          <tbody>
+            <tr><td>Positivity</td><td><span class="bar" style="--v:.98"></span></td><td class="hide-sm">keeps every room bright</td></tr>
+            <tr><td>Problem solving</td><td><span class="bar" style="--v:.95"></span></td><td class="hide-sm">loves the hard ones</td></tr>
+            <tr><td>Leadership</td><td><span class="bar" style="--v:.93"></span></td><td class="hide-sm">Sports Secretary, Dept. of Maths</td></tr>
+            <tr><td>Mental strength</td><td><span class="bar" style="--v:.92"></span></td><td class="hide-sm">calm under deadlines</td></tr>
+            <tr><td>Physical strength</td><td><span class="bar" style="--v:.9"></span></td><td class="hide-sm">table tennis &amp; volleyball medals</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER III — TOOLKIT ============ -->
+    <section class="chapter toolkit" id="toolkit">
+      <header class="chapter__head">
+        <span class="chapter__num mono">Chapter III</span>
+        <h2 class="chapter__title split">The <em>toolkit</em></h2>
+        <p class="chapter__dek reveal">Everything in the bag, grouped the way an analyst would: by what it's used for.</p>
+      </header>
+
+      <div class="sheet reveal">
+        <div class="sheet__bar">
+          <span class="sheet__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="mono sheet__file">tanya_toolkit.xlsx</span>
+        </div>
+        <div class="sheet__formula">
+          <span class="mono sheet__ref">B1</span>
+          <span class="sheet__fx"><em>fx</em></span>
+          <span class="mono sheet__expr" data-default="=COUNTA(Toolkit!B1:B4) → 17 skills, and counting">=COUNTA(Toolkit!B1:B4) → 17 skills, and counting</span>
+        </div>
+        <div class="sheet__head mono" aria-hidden="true"><span></span><span>A</span><span>B</span><span class="hide-sm">C</span></div>
+
+        <div class="sheet__row" data-ref="B1" data-formula='=JOIN("Python", "SQL", "Java", "C")'>
+          <span class="sheet__n mono">1</span>
+          <h3 class="sheet__area">Programming</h3>
+          <p class="sheet__skills">Python <i>/</i> SQL <i>/</i> Java <i>/</i> C</p>
+          <p class="sheet__use">Python for analysis, SQL for asking the database the right question.</p>
+        </div>
+        <div class="sheet__row" data-ref="B2" data-formula='=CLEAN(raw) → VALIDATE() → EXPLORE() → REPORT()'>
+          <span class="sheet__n mono">2</span>
+          <h3 class="sheet__area">Data Analysis</h3>
+          <p class="sheet__skills">Cleaning <i>/</i> Validation <i>/</i> EDA <i>/</i> Statistics <i>/</i> Reporting</p>
+          <p class="sheet__use">From raw, messy rows to numbers management can trust.</p>
+        </div>
+        <div class="sheet__row" data-ref="B3" data-formula='=SELECT * FROM records WHERE tidy = TRUE'>
+          <span class="sheet__n mono">3</span>
+          <h3 class="sheet__area">Databases</h3>
+          <p class="sheet__skills">Relational DBs <i>/</i> Storage <i>/</i> Retrieval</p>
+          <p class="sheet__use">Tables that stay tidy and queries that stay fast.</p>
+        </div>
+        <div class="sheet__row" data-ref="B4" data-formula='=SUM(Excel, PowerPoint, Word, HTML, CSS)'>
+          <span class="sheet__n mono">4</span>
+          <h3 class="sheet__area">Tools &amp; Web</h3>
+          <p class="sheet__skills">Excel <i>/</i> PowerPoint <i>/</i> Word <i>/</i> HTML <i>/</i> CSS</p>
+          <p class="sheet__use">Spreadsheets, decks that explain, and a little bit of the web.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER IV — WORK ============ -->
+    <section class="chapter work" id="work">
+      <header class="chapter__head">
+        <span class="chapter__num mono">Chapter IV</span>
+        <h2 class="chapter__title split">Selected <em>work</em></h2>
+      </header>
+
+      <article class="feature">
+        <div class="feature__index">01</div>
+        <div class="feature__body">
+          <p class="feature__meta mono"><span class="status">● ongoing</span> Startup · Business data</p>
+          <h3 class="feature__title">Business Data Management for <em>Ma Organics</em></h3>
+          <p class="feature__lede reveal">A growing organic-products startup needed its numbers in order. Tanya became the person who makes the sales records make sense.</p>
+          <ul class="feature__list">
+            <li class="reveal">Organises, maintains and analyses business and sales records to support day-to-day decisions.</li>
+            <li class="reveal">Cleans and validates raw sales data so reports are accurate and consistent.</li>
+            <li class="reveal">Supports process automation that cuts manual data entry, and prepares regular reports for management.</li>
+          </ul>
+          <ul class="chips chips--soft"><li>Excel</li><li>Data cleaning</li><li>Validation</li><li>Reporting</li><li>Automation</li></ul>
+        </div>
+        <div class="feature__viz" aria-hidden="true">
+          <div class="mini-chart">
+            <p class="mono mini-chart__title">sales_report.clean()</p>
+            <div class="mini-chart__bars">
+              <span style="--h:.38"></span><span style="--h:.52"></span><span style="--h:.46"></span><span style="--h:.64"></span><span style="--h:.58"></span><span style="--h:.78"></span><span style="--h:.72"></span><span style="--h:.92"></span>
+            </div>
+            <div class="mini-chart__axis mono"><span>raw</span><span>validated</span><span>reported</span></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="feature feature--alt">
+        <div class="feature__index">02</div>
+        <div class="feature__body">
+          <p class="feature__meta mono"><span class="status">● ongoing</span> Web app · Database</p>
+          <h3 class="feature__title">Vehicle <em>Parking</em> Management App</h3>
+          <p class="feature__lede reveal">A web application that runs four-wheeler parking end to end, built on a relational database.</p>
+          <ul class="feature__list">
+            <li class="reveal">Vehicle tracking, slot allocation and record management in one place.</li>
+            <li class="reveal">A relational database for structured storage and fast retrieval of parking and vehicle records.</li>
+          </ul>
+          <ul class="chips chips--soft"><li>SQL</li><li>Relational DB</li><li>HTML</li><li>CSS</li></ul>
+        </div>
+        <div class="feature__viz" aria-hidden="true">
+          <div class="slots">
+            <p class="mono mini-chart__title">SELECT slot FROM parking WHERE free;</p>
+            <div class="slots__grid">
+              <span class="t"></span><span></span><span class="t"></span><span class="t"></span><span></span><span class="t"></span>
+              <span></span><span class="t"></span><span class="t"></span><span></span><span class="t"></span><span></span>
+            </div>
+            <p class="mono slots__legend"><i class="lg lg--t"></i> taken <i class="lg"></i> free</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ CHAPTER V — JOURNEY ============ -->
+    <section class="chapter journey" id="journey">
+      <header class="chapter__head">
+        <span class="chapter__num mono">Chapter V</span>
+        <h2 class="chapter__title split">The <em>journey</em>, plotted</h2>
+        <p class="chapter__dek reveal">Every analyst should be able to chart her own growth. Here's Tanya's, as a line that only goes one way.</p>
+      </header>
+
+      <div class="plot-stage">
+      <p class="mono plot__axis"><span>y = growth</span><span>x = time →</span></p>
+      <div class="plot">
+        <svg class="plot__svg" viewBox="0 0 1000 420" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="area" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0" stop-color="#6E1F2F" stop-opacity=".18" />
+              <stop offset="1" stop-color="#6E1F2F" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+          <g class="plot__grid">
+            <line x1="0" y1="105" x2="1000" y2="105" /><line x1="0" y1="210" x2="1000" y2="210" /><line x1="0" y1="315" x2="1000" y2="315" />
+          </g>
+          <path class="plot__area" d="M40 360 C 200 340, 260 300, 330 270 S 520 200, 600 170 S 820 90, 960 50 L 960 420 L 40 420 Z" fill="url(#area)" />
+          <path class="plot__line" d="M40 360 C 200 340, 260 300, 330 270 S 520 200, 600 170 S 820 90, 960 50" />
+        </svg>
+        <ol class="plot__points">
+          <li style="--x:4%;--y:85.7%"><span class="dot"></span><div class="plot__label"><b class="mono">2021</b><span>B.Sc. Mathematics begins<br><small>Ethiraj College for Women</small></span></div></li>
+          <li style="--x:33%;--y:64%"><span class="dot"></span><div class="plot__label"><b class="mono">2023</b><span>BS Data Science begins<br><small>IIT Madras</small></span></div></li>
+          <li style="--x:60%;--y:40.5%"><span class="dot"></span><div class="plot__label"><b class="mono">2024</b><span>Sports Secretary &amp; TT gold<br><small>Dept. of Mathematics</small></span></div></li>
+          <li style="--x:96%;--y:12%"><span class="dot dot--now"></span><div class="plot__label plot__label--end"><b class="mono">2025 →</b><span>Maths graduate, data in practice<br><small>Ma Organics · open to work</small></span></div></li>
+        </ol>
+      </div>
+      </div>
+
+      <div class="credits">
+        <div class="credits__col">
+          <p class="mono credits__tag">Education</p>
+          <div class="credit reveal">
+            <span class="credit__mark">2023<small>— now</small></span>
+            <div><h4>BS in Data Science &amp; Applications</h4><p>Indian Institute of Technology Madras</p></div>
+          </div>
+          <div class="credit reveal">
+            <span class="credit__mark">2021<small>— 2025</small></span>
+            <div><h4>B.Sc. Mathematics</h4><p>Ethiraj College for Women, Chennai</p></div>
+          </div>
+        </div>
+        <div class="credits__col">
+          <p class="mono credits__tag">Workshops &amp; training</p>
+          <div class="credit reveal">
+            <span class="credit__mark">i.</span>
+            <div><h4>MTTS Overture Workshop</h4><p>Ramakrishna Mission Vivekananda College, Chennai</p></div>
+          </div>
+          <div class="credit reveal">
+            <span class="credit__mark">ii.</span>
+            <div><h4>Algebra, Analysis, Topology &amp; Applications</h4><p>Intensive training · Manipal Institute of Technology</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHAPTER VI — OFF THE CLOCK ============ -->
+    <section class="chapter court">
+      <header class="chapter__head chapter__head--light">
+        <span class="chapter__num mono">Chapter VI</span>
+        <h2 class="chapter__title split">Off the <em>spreadsheet</em></h2>
+        <p class="chapter__dek reveal">Strong in mind, strong in body. The same competitive streak that wins a table tennis rally finishes a report on time.</p>
+      </header>
+
+      <div class="scoreboard">
+        <div class="score reveal-card">
+          <span class="score__rank">1<span class="score__suf">st</span></span>
+          <p class="score__event">Table Tennis — Doubles</p>
+          <p class="mono score__year">College sports · 2024</p>
+        </div>
+        <div class="score reveal-card">
+          <span class="score__rank">2<span class="score__suf">nd</span></span>
+          <p class="score__event">Table Tennis — Singles</p>
+          <p class="mono score__year">College sports · 2024</p>
+        </div>
+        <div class="score reveal-card">
+          <span class="score__rank">2<span class="score__suf">nd</span></span>
+          <p class="score__event">Volleyball</p>
+          <p class="mono score__year">College sports · 2024</p>
+        </div>
+      </div>
+
+      <ul class="roles">
+        <li class="reveal"><span class="mono">Leadership</span> Sports Secretary, Department of Mathematics, Ethiraj College for Women</li>
+        <li class="reveal"><span class="mono">Community</span> Member: Rotaract Club, Youth Red Cross &amp; Entrepreneurship Cell (2022 — 2025)</li>
+        <li class="reveal"><span class="mono">Languages</span> English · Tamil · Hindi · Kannada</li>
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <p class="mono contact__kicker">Final chapter · f(∞)</p>
+      <h2 class="contact__title split">Let's find the <em>pattern</em> together.</h2>
+      <p class="contact__dek reveal">Open to entry-level roles in Data Analysis, MIS Reporting and Data Operations. Tanya replies fast, and with enthusiasm.</p>
+
+      <div class="contact__links">
+        <a class="contact__link magnetic" href="mailto:tanyanagarajan841@gmail.com"><span class="mono">email</span>tanyanagarajan841@gmail.com</a>
+        <a class="contact__link magnetic" href="tel:+917305069122"><span class="mono">phone</span>+91 73050 69122</a>
+        <a class="contact__link magnetic" href="https://www.linkedin.com/in/tanya-nagarajan-95628b397/" target="_blank" rel="noopener"><span class="mono">linkedin</span>tanya-nagarajan ↗</a>
+      </div>
+
+      <a href="assets/Tanya_Nagarajan_Resume.pdf" download class="pill pill--solid pill--lg magnetic">Download résumé <span aria-hidden="true">↓</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__big" aria-hidden="true"><em>Tanya</em> Nagarajan</p>
+    <div class="footer__row mono">
+      <span>© 2026 Tanya Nagarajan</span>
+      <span>Chennai, Tamil Nadu</span>
+      <a href="#top" class="to-top">Back to cover ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
