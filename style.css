@@ -573,6 +573,13 @@ h1 em, h2 em, h3 em, p em, .footer__big em {
 }
 .footer__row { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid var(--ink); padding-top: 14px; margin-top: 18px; color: var(--ink-soft); }
 .to-top:hover { color: var(--burgundy); }
+.footer__credit a {
+  color: var(--burgundy); font-family: var(--f-display); font-style: italic; font-size: 1.25em;
+  font-variation-settings: "SOFT" 100, "WONK" 1;
+  background: linear-gradient(var(--burgundy), var(--burgundy)) 0 100% / 0% 1px no-repeat;
+  transition: background-size .45s var(--ease);
+}
+.footer__credit a:hover { background-size: 100% 1px; }
 
 /* ---------- Initial hidden states (JS reveals them) ---------- */
 .js .reveal, .js .reveal-card { opacity: 0; }

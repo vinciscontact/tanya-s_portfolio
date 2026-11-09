@@ -323,7 +323,7 @@
       const plotTl = gsap.timeline({
         scrollTrigger: {
           trigger: '.plot-stage', start: 'center 52%', end: '+=1100',
-          scrub: 1, pin: true, anticipatePin: 1, refreshPriority: 1,
+          scrub: 1, pin: true, anticipatePin: 1,
         },
       });
       plotTl.fromTo('.plot__svg', { clipPath: 'inset(0% 100% 0% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', ease: 'none', duration: 1 }, 0);
@@ -357,6 +357,10 @@
       scrollTrigger: { trigger: '.footer', start: 'top bottom', end: 'bottom bottom', scrub: 1 },
     });
 
+    // Triggers were created in mixed order (batches, pins inside matchMedia):
+    // sort them by page position so pin spacing is applied correctly, then measure.
+    ScrollTrigger.sort();
+    ScrollTrigger.refresh();
     // Images and fonts may shift layout — refresh once everything is in
     addEventListener('load', () => ScrollTrigger.refresh());
   }
